@@ -10,7 +10,7 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
 .TopRow {
     display: flex;
     flex-wrap: row;
-    width: 135%;
+    width: 100%;
     overflow: hidden;
     margin-left: -20px;
     margin-top: -10px;
@@ -26,7 +26,7 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
     color: white;
     position: relative;
     top: 60%;
-    right: 40%;
+    right: 20%;
     display: flex;
     margin: 5%;
     font-size: 1.2vw;
@@ -52,8 +52,12 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
 .RightSideHeaderBeans {
     width: 75%;
     height: 20%;
-    /* margin-left: -40px; */
+    margin-right: -50%;
     
+}
+
+.CoffeeCupIcon {
+
 }
 
 
