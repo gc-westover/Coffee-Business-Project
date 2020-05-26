@@ -18,7 +18,7 @@
     background-color: rgb(77, 48, 5);
     height: 90px;
     padding: 20px;
-    background-image: <img src="coffee_images/banner_beans-scoop.jpg" alt="coffee beans">
+    background-image: <img src="coffee_images/banner_beans-scoop.jpg" alt="coffee beans">;
     background-position: center;
   background-size: cover;
   display: flex-left;
