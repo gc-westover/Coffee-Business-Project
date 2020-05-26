@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 .head-section {
     display: flex;
@@ -159,4 +159,43 @@
   clear: both;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 526px) {
+  body {
+      color: black;
+  }
+
+  .productbox {
+      width: 460px;
+      /* height: 20%; */
+  }
 }

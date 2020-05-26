@@ -172,26 +172,65 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 450px) {
     body {
-        color: red;
+        color: black;
     }
 
     .ComsicLogo {
-        width: 50%;
+        width: 150%;
         height: 20%;
     }
     .Directory {
-        opacity: 0;
+        opacity: 1;
+        position: relative;
+        z-index: 8;
+        color: black;
+        top: 800px;
+        font-size: 2vw;
+    }
+    .HomeButton {
+        opacity: 1;
+        position: relative;
+        z-index: 5;
+        color: black;
+        top: 200px;
+        right: 200px;
+        font-size: 2vw;
     }
     .RightSideHeaderBeans {
-        width: 60%;
+        width: 160%;
         height: 150%;
     }
     .TopRow {
         flex-wrap: wrap;
         justify-content: center;
     }
+    .FooterImage {
+        width: 104%;
+        margin-right: -60px;
+    }
+    .TW {
+        margin-top: -2px;
+    }
+    .FB {
+        margin-bottom: 15px;
+        bottom: 92px;
+    }
+    
 }
 
 
@@ -219,11 +258,49 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
         margin-bottom: 45px;
     }
     .FB {
-        margin-bottom: 65px;
+        margin-bottom: 50px;
         margin-left: -60px;
     }
     .IG {
         margin-bottom: -40px;
         margin-left: -150px;
     }
+}
+
+
+
+@media (max-width: 490px) {
+    body {
+        top: 1px;
+    }
+
+    .Directory {
+        font-size: 3vw;
+    }
+    .Button {
+
+        font-size: 1.6vw;
+   
+    }
+    .HomeButton {
+        margin-left: 20px;
+    }
+    .AboutButtom {
+        margin-left: 40px;
+    }
+    .TW {
+        margin-bottom: 85px;
+        
+    }
+    .FB {
+        margin-bottom: 90px;
+        margin-left: -120px;
+        
+    }
+    .IG {
+        margin-bottom: -20px;
+        margin-left: -250px;
+        
+    }
+   
 }
