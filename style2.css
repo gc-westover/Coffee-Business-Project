@@ -156,9 +156,10 @@
   margin-bottom: 70%;
 }
 .LocBoxes {
-  clear: both;
+  /* flex-wrap: row; */
   flex-direction: row;
-  flex-wrap: wrap;
+
+
 }
 
 
@@ -197,5 +198,21 @@
   .productbox {
       width: 460px;
       /* height: 20%; */
+  }
+  .locationbox {
+    width: 460px;
+  }
+}
+@media (min-width: 1017px) {
+  body {
+      color: black;
+  }
+
+  .productbox {
+      width: 440px;
+      /* height: 20%; */
+  }
+  .locationbox {
+    width: 440px;
   }
 }
