@@ -18,7 +18,7 @@
     background-color: rgb(77, 48, 5);
     height: 90px;
     padding: 20px;
-    background-image: url("coffee_images/banner_beans-scoop.jpg" alt="coffee beans");
+    background-image: url("coffee_images/banner_beans-scoop.jpg");
     background-position: center;
   background-size: cover;
   display: flex-left;
@@ -134,7 +134,7 @@
 
 
       .productbox {
-        color: white;
+        color: rgb(0, 0, 0);
         border: 1px solid #333;
         width: 400px;
         padding: 20px;
