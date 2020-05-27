@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet");
+
+.head-section {
+    display: flex;
+    flex-direction: row;
+     flex-wrap: wrap;
+    flex-flow: row wrap;
+  }
+
+.headlogo {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: row;
+
+}
+
+.box {
+    background-color: rgb(77, 48, 5);
+    height: 90px;
+    padding: 20px;
+    background-image: url("coffee_images/banner_beans-scoop.jpg");
+    background-position: center;
+  background-size: cover;
+  display: flex-left;
+  justify-content: flex-start;
+    }
+
+    .bannerphoto {
+        position: relative;
+        text-align: center;
+    }
+
+    .navigation1 {
+        position: absolute;
+        bottom: 160px;
+        left: 18px;
+        font-family: Lato;
+        font-size: 18px;
+        color: white
+    }
+
+   .navigation2 {
+        position: absolute;
+        bottom: 124px;
+        left: 18px;
+        font-family: Lato;
+        font-size: 18px;
+        color: white
+
+    }
+
+    .navigation3 {
+        position: absolute;
+        bottom: 90px;
+        left: 18px;
+        font-family: Lato;
+        font-size: 18px;
+        color: white
+
+    }
+
+    navtext {
+        font-family: 'Lato', sans-serif;
+        font-size: medium;
+        align-content: left;
+        padding-left: 40px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 22px;
+      }
+
+      .bottomlinks {
+        position: absolute;
+        bottom: 18px;
+        left: 18px;
+        font-size: 18px;
+        color: white
+
+    }
+      bottomtext {
+        font-family: 'Lato', sans-serif;
+        font-size: small;
+        align-content: center;
+        padding-left: 40px;
+        color: rgb(0, 0, 0);
+      }
+
+      .location-section {
+        display: flex;
+        flex-direction: row;
+          flex-wrap: wrap;
+        flex-flow: row wrap;
+        flex-direction: column;
+      }
+
+      .locationbox {
+            color: rgb(0, 0, 0);
+            border: 1px solid #333;
+            width: 400px;
+            padding: 20px;
+            margin-bottom: 30px;
+            margin-right: 60px;
+            box-shadow: 0 5px 10px rgba(51, 51, 51, 1);
+            object-fit: contain;
+            /* float: right;
+            clear: both; */
+    }
+
+    locationtext1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        /* align-content: left */
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    locationtext2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+        align-content: left
+    }
+
+    .locationimage {
+        width: 360px;
+    }
+
+
+    .bannertop {
+   display: block;
+   align: left;
+    /* justify-content: flex-start; */
+      }
+
+
+      .productbox {
+        color: rgb(0, 0, 0);
+        border: 1px solid #333;
+        width: 400px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 60px;
+        /* box-shadow: 0 5px 10px rgba(51, 51, 51, 1); */
+        object-fit: contain;
+        display:block;
+        float:left;
+}
+
+
+.LocGlassTop {
+  position: relative;
+  float: left;
+  clear: both;
+  margin-right: 50%;
+  margin-bottom: 70%;
+}
+.LocBoxes {
+  clear: both;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.storybox {
+  width: 500px;
+  background-color: rgb(244, 200, 100);
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-right: 60px;
+  box-shadow: 5px 5px 50px rgb(102, 102, 102);
+  object-fit: contain;
+  position: absolute;
+  bottom: 8px;
+  /* text-align: justify;
+  text-justify: inter-word; */
+
+}
+
+
+storytext {
+  font-family: 'Lato', sans-serif;
+  color: rgb(122, 57, 19)
+  font-size: 16px;
+  line-height: 1.8;
+  /* align-content: left */
+  text-align: justify;
+  text-justify: inter-word;
