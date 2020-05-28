@@ -95,15 +95,28 @@
       .locationbox {
             color: rgb(0, 0, 0);
             border: 1px solid #333;
-            width: 400px;
+            width: 430px;
             padding: 20px;
             margin-bottom: 30px;
             margin-right: 60px;
             box-shadow: 0 5px 10px rgba(51, 51, 51, 1);
-            object-fit: contain;
-            /* float: right;
-            clear: both; */
+            /* object-fit: contain; */
+            float: left;
+            clear: both;
     }
+
+    .locationbox2 {
+      color: rgb(0, 0, 0);
+      border: 1px solid #333;
+      width: 430px;
+      padding: 20px;
+      margin-bottom: 30px;
+      margin-right: 60px;
+      box-shadow: 0 5px 10px rgba(51, 51, 51, 1);
+      /* object-fit: contain; */
+      float: right;
+      clear: both;
+}
 
     locationtext1 {
         font-family: 'Lato', sans-serif;
@@ -153,7 +166,7 @@
   float: left;
   clear: both;
   margin-right: 50%;
-  margin-bottom: 70%;
+  margin-bottom: 15%;
 }
 .LocBoxes {
   /* flex-wrap: row; */
@@ -161,12 +174,15 @@
 
 
 }
-.CosmicLogo {
+.CosmicLogoLocations {
   width: 33%;
   height: 30%;
 }
 .Beans {
   width: 65%;
+  width: 75%;
+  height: 20%;
+  margin-right: -50%;
 }
 
 
@@ -219,5 +235,40 @@
   }
   .locationbox {
     width: 440px;
+  }
+}
+@media (min-width: 1015px) {
+  body {
+      color: black;
+  }
+
+
+  .locationbox {
+    clear: both;
+  }
+  .locationbox2 {
+    clear: right;
+  }
+  .LocBoxes {
+    justify-items: center;
+    align-content: center;
+  }
+}
+@media (max-width: 1015px) {
+  body {
+      color: black;
+  }
+
+
+  .locationbox {
+    clear: both;
+  }
+  .locationbox2 {
+    float: left;
+    clear: right;
+  }
+  .LocBoxes {
+    justify-content: center;
+    align-items: center;
   }
 }

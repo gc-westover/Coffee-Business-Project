@@ -18,7 +18,7 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
     margin-top: -10px;
 }
 
-.ComsicLogo {
+.CosmicLogo {
     width: 35.7%;
     height: 20%;
  
@@ -27,7 +27,7 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
 .Directory {
     color: white;
     position: relative;
-    top: 60%;
+    top: 80%;
     right: 20%;
     display: flex;
     margin: 5%;
@@ -173,6 +173,17 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
 
 
 
+.AboutPhoto {
+    width: 100%;
+    margin-left: -2%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -303,4 +314,28 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
         
     }
    
+}
+
+@media (max-width: 620px) {
+    body {
+        color: black;
+    }
+
+    .Directory {
+        top: 60%;
+        transition: 1s;
+    }
+    
+}
+
+@media (max-width: 830px) {
+    body {
+        color: black;
+    }
+
+    .LocGlassTop {
+        width: 80%;
+        transition: 2s;
+    }
+    
 }
