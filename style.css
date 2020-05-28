@@ -86,16 +86,47 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
     height: 65%;
  
 }
-.labels {
+
+.labelswrapper {
     display: flex;
     flex-direction: row;
-    width: 50%;
-    height: 20%;
+    /* display: inline-block; */
+    margin-left: 12%;
+}
+.labels {
+    width: 300px;
+    height: 100px;
+    margin-bottom: -100px;
+    margin-right: 30px;
+    margin-left: 30px;
     margin: 2%;
-    margin-bottom: -170px;
+    display: inline-block;
 }
 
-
+.Aboutlabel {
+    /* margin-right: 30px;
+    padding: 20px; */
+    width: 300px;
+    height: 200px;
+    margin: 6%;
+    display: inline-block;
+}
+.ProductsLabel {
+    width: 300px;
+    height: 200px;
+    margin: 6%;
+    display: inline-block;
+    /* position: absolute; */
+}
+.LocationsLabel {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 6%;
+    margin-left: 60px;
+ 
+    
+}
 
 
 .Block {
@@ -145,29 +176,49 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
     margin-left: -8px;
     margin-bottom: -12px;
     margin-top: -230px;
+    /* position: absolute;
+    display: inline-block; */
+    min-height: 110px;
+
 }
+.IconRow {
+    display: flex;
+    flex-direction: row;
+    
+}
+
 
 
 .FB {
     position: relative;
-    width: 10%;
-    top: 250px;
-    left: 200px;
+    z-index: 3;
+    display: inline-block;
+    margin-right: 5px;
+/* margin: -5%; */
+    width: 80px;
+    /* top: 150px;
+    left: 200px; */
 
 }
 
 .TW {
-    width: 10%;
+    width: 80px;
     position: relative;
-    top: 110px;
+    z-index: 3;
+    margin-right: 5px;
+    /* margin: 5%; */
+    /* top: 63px;
     left: 10px;
+    margin-top: 5%; */
 }
 
 .IG {
     position: relative;
-    width: 10%;
-    left: 400px;
-    top: -20px;
+    z-index: 3;
+    width: 80px;
+    /* margin: 5%; */
+    /* left: 400px;
+    top: -20px; */
 }
 
 
@@ -200,7 +251,10 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
     body {
         color: black;
     }
-
+    .labels {
+        opacity: 0;
+        width: 10px;
+    }
     .ComsicLogo {
         width: 150%;
         height: 20%;
@@ -235,11 +289,15 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
         margin-right: -60px;
     }
     .TW {
-        margin-top: -2px;
+        width: 40px;
     }
     .FB {
-        margin-bottom: 15px;
-        bottom: 92px;
+        /* margin-bottom: 15px;
+        bottom: 92px; */
+        width: 40px;
+    }
+    .IG {
+        width: 40px;
     }
     
 }
@@ -265,7 +323,7 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
     .AboutButtom {
         margin-left: 40px;
     }
-    .TW {
+    /* .TW {
         margin-bottom: 45px;
     }
     .FB {
@@ -275,7 +333,7 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
     .IG {
         margin-bottom: -40px;
         margin-left: -150px;
-    }
+    } */
 }
 
 
@@ -299,7 +357,7 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
     .AboutButtom {
         margin-left: 40px;
     }
-    .TW {
+    /* .TW {
         margin-bottom: 85px;
         
     }
@@ -312,7 +370,7 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
         margin-bottom: -20px;
         margin-left: -250px;
         
-    }
+    } */
    
 }
 
