@@ -175,7 +175,7 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
     height: 30%;
     margin-left: -8px;
     margin-bottom: -12px;
-    margin-top: -230px;
+    /* margin-top: -230px; */
     /* position: absolute;
     display: inline-block; */
     min-height: 110px;
@@ -184,6 +184,7 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
 .IconRow {
     display: flex;
     flex-direction: row;
+    position: absolute;
     
 }
 
@@ -193,7 +194,7 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
     position: relative;
     z-index: 3;
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 35px;
 /* margin: -5%; */
     width: 80px;
     /* top: 150px;
@@ -205,7 +206,7 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
     width: 80px;
     position: relative;
     z-index: 3;
-    margin-right: 5px;
+    margin-right: 35px;
     /* margin: 5%; */
     /* top: 63px;
     left: 10px;
@@ -228,10 +229,20 @@ h2 { font-family: Lato; font-size: 11px; font-style: normal; font-variant: norma
     width: 100%;
     margin-left: -2%;
 }
+.ProductsSection {
+    margin: 1%;
+    /* float: right; */
+}
 
-
-
-
+.storybox {
+    border: solid black 1px;
+    margin: 2%;
+    box-shadow: 0 5px 10px rgba(51, 51, 51, 1);
+    padding: 20px;
+}
+.ProductsFooter {
+    float: right;
+}
 
 
 
